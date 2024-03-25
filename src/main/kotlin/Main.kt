@@ -1,5 +1,5 @@
 fun main(args: Array<String>) {
-    integer(arrayOf(2,6,4,6))
+    println(integer(arrayOf(2,6,4,6)))
 
     sphere(8)
 
@@ -12,17 +12,12 @@ fun main(args: Array<String>) {
 
 
 fun integer(num: Array<Int>):Int{
-   var sums = num.sum()
-    println(sums)
-    return sums
+   return(num.sum())
 
-    var counts = num.count()
-    println(counts)
-    return counts
+    return (num.count())
 
-     var average = sums/counts
-    println(average)
-    return average
+
+     return (num.sum()/num.count())
 
 
 
